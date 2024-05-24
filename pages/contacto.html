@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="../assets/icons16.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <title>AKMU Fansite / Contacto</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary navBackground">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/logoAkmu.png" class="logo" alt="Logo Akmu">
+        </a>
+        <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item links">
+              <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item links">
+              <a class="nav-link" href="#">Perfil</a>
+            </li>
+            <li class="nav-item links">
+              <a class="nav-link" href="./discografia.html">Discografia</a>
+            </li>
+            <li class="nav-item links">
+              <a class="nav-link" href="./curiosidades.html">Curiosidades</a>
+            </li>
+            <li class="nav-item links">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-sm mt-5 mb-5 p-4 rounded-5 w-75 w-sm-50 mb-5 contacto">
+      <form id="formContacto">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre y Apellidos</label>
+          <input type="text" class="form-control rounded-4" name="nombre" id="nombre" placeholder="Nombre Apellido" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control rounded-4" name="email" id="email" placeholder="nombre@mail.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="comentario" class="form-label">Ingresa tu mensaje:</label>
+          <textarea class="form-control rounded-4" name="comentario" id="comentario" rows="4" placeholder="¡Gracias por tu mensaje!" required></textarea>
+        </div>
+        <fieldset class="mb-3">
+          <legend class="col-form-label pt-0">Noticias</legend>
+          <div class="form-check">
+            <input class="form-check-input border-3" type="radio" name="noticias" id="noticias" checked>
+            <label class="form-check-label" for="noticias">Quiero recibir noticias</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input border-3" type="radio" name="noticias" id="no-noticias">
+            <label class="form-check-label for="no-noticias">No quiero recibir noticias</label>
+          </div>
+        </fieldset>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-3">
+          <input type="submit" class="btn btn-lg p-3" value="Enviar">
+        </div>
+      </form>
+    </div>
+    <div class="socialMedia">
+      <div class="btn-group-vertical  " role="group" aria-label="Vertical button group">
+        <a class="btn-sm text-white p-1" href="https://www.youtube.com/officialAKMU" target="_blank">
+          <i class="bi bi-youtube"></i>
+        </a>
+        <a class="btn-sm text-white p-1" href="https://twitter.com/official_akmu" target="_blank">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a class="btn-sm text-white p-1" href="https://web.facebook.com/officialAKMU?_rdc=2&_rdr" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a class="btn-sm text-white p-1" href="https://www.instagram.com/akmuofficial/" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a class="btn-sm text-white p-1" href="https://www.tiktok.com/@akmu" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </main>
+  <!-- Spotify -->
+  <footer>
+    <iframe style="border-radius: 12px"
+      src="https://open.spotify.com/embed/artist/6OwKE9Ez6ALxpTaKcT5ayv?utm_source=generator&theme=0" width="100%"
+      frameborder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+  </script>
+</body>
+</html>
