@@ -1,0 +1,170 @@
+/*General*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+html body {
+  background-color: #19214a;
+  font-family: Lato, Times, serif;
+}
+
+body p,
+ol {
+  color: #ffffff;
+}
+
+body h1, 
+body h2 {
+  color: #f038b8ff;
+}
+
+/*Navbar*/
+.banner img {
+  width: 100%;
+  height: 60px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.links {
+  background-color: #f038b8ff;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.links:hover {
+  background-color: #c932b5ff;
+}
+
+.links a{
+  color: #ffffff;
+}
+
+.container-fluid .hamburger {
+  background-color: #f038b8ff;
+}
+
+.navBackground {
+  background-image: url('https://www.ygfamily.com/contents/images/2023/08/akmu-album-lovelee.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+    text-align: right;
+  }
+}
+
+/*Footer Spotify*/
+footer {
+  height: 80px;
+  padding: 10px;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer iframe {
+  height: 80px;
+  border: none;
+}
+
+/*Carousel Galerias*/
+.carousel-item img{
+  height: 500px;
+  object-fit: cover;
+}
+
+.container-sm .h1 {
+  color: #f038b8ff;
+}
+
+/*Social Media*/
+.socialMedia {
+  position: fixed;
+  bottom: 27vh;
+  left: 0;
+  background-color: #f038b8ff;
+  border-radius: 5px;
+}
+
+.socialMedia a:hover {
+  background-color: #c932b5ff;
+  border-radius: 5px;
+}
+
+
+/*Discografia*/
+
+.albums {
+  display: grid;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.albumText, 
+.album img{
+  background: #35469fff;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+.album img {
+  max-height: 400px;
+  min-width: 350px;
+  min-height: 350px;
+}
+
+/* Curiosidades*/
+
+.killingVoice {
+  max-width: 100%;
+}
+
+main .killingVoice iframe{
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+}
+
+/*Contacto*/
+
+.contacto {
+  background-color: #35469fff;
+}
+
+label, legend {
+  color: #ffffff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type='radio']:checked {
+  background: #c932b5ff;
+}
+
+input[type='submit'] {
+  background-color: #f038b8ff;
+  color: #ffffff;
+  border: none;
+}
+
+input[type='submit']:hover {
+  background-color: #c932b5ff;
+  color: #ffffff;
+}
+
+input[type='radio']:checked{
+  border-color: #ffffff;
+}
+
