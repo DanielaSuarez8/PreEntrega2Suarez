@@ -1,0 +1,17 @@
+.albumText {
+  background: $secondaryColor;
+  min-height: 400px;
+  border: $borderSmall;
+}
+
+.album img {
+  background: $secondaryColor;
+  max-height: 400px;
+  min-width: 350px;
+  min-height: 350px;
+  border: $borderSmall;
+  
+  &:hover {
+    background: radial-gradient(circle, $primaryColor, $secondaryColor);
+  }
+}

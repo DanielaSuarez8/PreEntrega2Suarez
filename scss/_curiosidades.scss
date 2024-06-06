@@ -1,0 +1,17 @@
+.killingVoice {
+  height: 500px;
+  object-fit: cover;
+
+  iframe{
+    border: $borderSmall;
+    box-shadow: 0px 0px 40px $shadows;
+  }
+}
+
+.hearts {
+  width: 20px;
+  
+  &::selection {
+    background-color: $primaryColor;
+  }
+}
