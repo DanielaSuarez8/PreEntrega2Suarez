@@ -104,7 +104,7 @@ footer iframe {
     transform: scale(1);
   }
   100% {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 }
 .pulseDos {
@@ -127,14 +127,12 @@ footer iframe {
     text-align: center;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .albumText {
-    width: 350px;
-    height: 370px;
+    max-width: 350px;
+    max-height: 430px;
   }
   .album img {
-    min-width: 200px;
-    min-height: 200px;
     max-height: 350px;
     max-width: 350px;
   }
@@ -184,7 +182,7 @@ input[type=submit]:hover {
 }
 
 .carousel-item img {
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   border: 1px solid #ffffff;
 }
@@ -192,14 +190,16 @@ input[type=submit]:hover {
 .albumText {
   background: #35469f;
   min-height: 400px;
+  min-width: 300px;
+  max-height: 450px;
   border: 1px solid #ffffff;
 }
 
 .album img {
   background: #35469f;
   max-height: 400px;
-  min-width: 350px;
-  min-height: 350px;
+  min-width: 300px;
+  min-height: 300px;
   border: 1px solid #ffffff;
 }
 .album img:hover {
@@ -216,10 +216,10 @@ input[type=submit]:hover {
 }
 
 .hearts {
-  width: 20px;
+  width: 30px;
 }
 .hearts::selection {
-  background-color: #f038b8;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */

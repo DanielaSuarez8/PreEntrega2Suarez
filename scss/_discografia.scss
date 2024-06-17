@@ -1,14 +1,16 @@
 .albumText {
   background: $secondaryColor;
   min-height: 400px;
+  min-width: 300px;
+  max-height: 450px;
   border: $borderSmall;
 }
 
 .album img {
   background: $secondaryColor;
   max-height: 400px;
-  min-width: 350px;
-  min-height: 350px;
+  min-width: 300px;
+  min-height: 300px;
   border: $borderSmall;
   
   &:hover {
