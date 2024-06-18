@@ -7,13 +7,13 @@
 @media (max-width: 800px) {
   .albumText
   {
-  max-width: 350px;
+  min-width: 250px;
   max-height: 430px;
   }
 
   .album img {
-  max-height: 350px;
-  max-width: 350px;
+  min-height: 250px;
+  min-width: 250px;
   }
 }
 
