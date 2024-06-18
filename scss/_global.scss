@@ -44,10 +44,6 @@ html {
 }
 
 //Navbar
-.banner img {
-  width: 100%;
-  height: 60px;
-}
 
 .logo {
   width: 60px;
@@ -83,7 +79,7 @@ html {
 //Social Media
 .socialMedia {
   position: fixed;
-  bottom: 27vh;
+  bottom: 21vh;
   left: 0;
   @include background-primary;
   @include border-radius-small;
